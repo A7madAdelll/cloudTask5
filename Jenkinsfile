@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/yourusername/my-bash-script.git'
+                git 'https://github.com/A7madAdelll/cloudTask5.git'
             }
         }
         stage('Execute Script') {
