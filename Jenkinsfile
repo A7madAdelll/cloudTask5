@@ -1,10 +1,10 @@
 pipeline {
     agent any
     stages {
-        stage('List Files') {
+        stage('first stage') {
             steps {
-                echo "Hellllllo"
                 bat 'run_ls.bat'
+                echo "ya rab a5od el daraga"
             }
         }
     }
