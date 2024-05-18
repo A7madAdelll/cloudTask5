@@ -1,7 +1,6 @@
 git clone "https://github.com/A7madAdelll/elbonuscloud.git"
 dir
-echo Hello, world! > myfile.txt
-git init
+echo Hello, world! > myfile2.txt
 git add .
-git commit -m "add a file from onother repo"
+git commit -m "alaaaaaa"
 git push
