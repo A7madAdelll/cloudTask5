@@ -4,7 +4,7 @@ pipeline {
         stage('first stage') {
             steps {
                 bat 'run_ls.bat'
-                echo "ya rab a5od el daraga"
+                echo "ya rab n5od el daraga"
             }
         }
     }
