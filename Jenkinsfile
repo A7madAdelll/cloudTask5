@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Execute Script') {
             steps {
-                sh './run_ls.sh'
+                bat './run_ls.bat'
             }
         }
     }
