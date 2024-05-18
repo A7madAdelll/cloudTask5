@@ -1,3 +1,2 @@
 @echo off
-dir
-ls
+bash -c "ls"
